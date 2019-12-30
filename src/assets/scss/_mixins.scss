@@ -1,0 +1,17 @@
+@mixin fullWidth($wdthproperty, $floatproperty) {
+  width: $wdthproperty;
+  float: $floatproperty;
+}
+
+@mixin flex_btwn($dsp_flex, $space_btwn) {
+  display: $dsp_flex;
+  justify-content: $space_btwn;
+}
+@mixin flex_align_center($dsp_flex, $align_item) {
+  display: $dsp_flex;
+  align-items: $align_item;
+}
+
+@mixin d_flex($dsp_flex) {
+  display: $dsp_flex;
+}
